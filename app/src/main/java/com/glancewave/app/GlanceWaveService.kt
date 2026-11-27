@@ -128,7 +128,7 @@ class GlanceWaveService : Service(), SensorEventListener {
             }
         }
 
-        return START_STICKY
+        return START_NOT_STICKY
     }
 
     private fun handlePhoneState(state: String?) {
